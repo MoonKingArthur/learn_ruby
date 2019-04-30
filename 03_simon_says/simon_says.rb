@@ -30,6 +30,7 @@ def first_word(string)
 end
 
 def titleize(word)
+        
         myarray = word.split(" ")
         myarray[0] = myarray[0].capitalize
         i=0
